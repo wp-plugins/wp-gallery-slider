@@ -1,0 +1,160 @@
+/**
+
+* @file: Wpslider.css 
+
+* @version: 1.0
+
+*/
+
+/*
+
+Plugin Name: WP Gallery Slider
+
+Plugin URI: http://tubentertain.com/wpgallery-slider/
+
+Description: his plugin automatically add the Highslide onclick="return hs.expand(this);" to linked images  in a post, focusing on the wp-gallery shorcode. The required Highslide for WP files are Already Added so dont worry. Just Activate the plugin. Create you WP-Gallery and Go to the front end and click your Thums to it working.
+
+Author: ShapCyber
+
+Author URI: http://tubentertain.com/wpgalleryslider/
+
+Version: 1.0
+
+*/		
+
+
+
+/*Reset worpress Gallery Css and diplay*/
+
+/*Make it workable with HighSlider*/			
+
+dl.gallery-item{
+padding:0;
+
+}
+
+			
+
+dl.gallery-item dt.gallery-icon >a>img{
+
+position:relative;
+
+border:2px solid #000;
+
+box-shadow: 2px 2px 15px #111;
+
+border-radius:5px;
+
+}
+
+dl.gallery-item a{
+position:relative;
+
+padding:5px 5px;
+float:left;
+left:0;
+display:inline-block;
+margin:5px 15px;
+width: 150px;
+height:150px;
+}
+
+dl.gallery-item a:after{
+
+font-family: 'FontAwesome';
+
+content: '\f065';
+
+margin: auto;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+bottom:0;
+
+right:0;
+
+width:25px;
+
+height: 25px;
+
+color:#FFF;
+
+border-radius:5px;
+
+padding:0;
+
+background:#111;
+
+font-size: 20px;
+
+text-align:center;
+
+line-height:20px
+
+}
+
+ dl.gallery-item:hover a:after{color:#ccc;}
+
+/*hide wodrpreess caption */
+
+/*Use the one for \Highslider*/
+
+.wp-caption-text,.gallery-caption{display:none;}
+
+			
+
+.highslide-controls ul{
+
+padding:0;
+
+margin:0;
+
+list-style:none;	
+
+background: #111;
+
+color: white;
+
+width:200px;
+
+border-width: 1;
+
+border-style: solid;
+
+border-color: #555; 
+
+border-radius:5px;
+
+}
+
+.highslide-controls ul li{display:inline-block;}
+
+.highslide-controls ul li a{display:inline;margin:0 10px; color:#fff}
+
+.highslide-controls ul li a:hover{color:#ccc;}
+
+.highslide-caption{
+
+background:#111;
+
+color:#fff;
+
+line-height:20px;
+
+padding:0 10px;
+
+border-radius:5px;}
+
+.highslide-dimming {
+
+	/*position: absolute;*/
+
+	background: black;
+
+}
+
+			

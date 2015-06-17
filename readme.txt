@@ -16,7 +16,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 The plugin automatically add the highslide-image class to linked images in a post.
 
 == Description ==
-This plugin automatically add the Highslide onclick="return hs.expand(this);" to linked images  in a post, focusing on the wp-gallery shortcode. The required Highslide for WP files are Already Added so dont worry. Just Activate the plugin.
+This plugin automatically add the Highslide onclick="return hs.expand(this);" to linked images  in a post, focusing on the wp-gallery shortcode. The required Highslide for WP files are Already Added so dont worry. Just Activate the plugin. Link to [DEMO PAGE]( http://tubentertain.com/wpgallery-slider)
 
 
 == Installation ==
